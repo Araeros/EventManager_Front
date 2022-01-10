@@ -1,0 +1,7 @@
+<p>event works!</p>
+<div class='event'>
+    <p class="date">{{eventDate}}</p>
+    <p class="value">{{eventValue}}</p>
+    <p *nfIf='hasLabel' class="labels">{{eventLabels}}</p>
+    <p *ngIf='hasComment' class="comment">{{eventComment}}</p>
+</div>

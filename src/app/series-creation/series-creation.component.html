@@ -1,0 +1,30 @@
+<div class="modal-dialog">
+    <div class="modal-content">
+        <!-- Modal Header --> 
+        <div class="modal-header">
+            <h4 class="modal-title">{{ popUpName }}</h4>
+            <button type="button" class="close" data-dismiss="modal" (click) = "resetForm()">&times;</button>
+        </div>
+        
+        <!-- Modal body --> 
+        <div class="modal-body">
+            <form #form>
+                <div>
+                    <label for="inputTitle" class="form-label">Titre</label>
+                    <input type="text" class="form-control" #seriesTitle placeholder="Température Maison">
+                </div>
+                <br/>
+                <div>
+                    <label for="inputDescription" class="form-label">Description</label>
+                    <input type="text" class="form-control" #seriesDescription placeholder="Liste des températures de la maison">
+                </div>
+            </form>
+        </div>
+        
+        <!-- Modal footer --> 
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal" (click) = "resetForm()">Fermer</button>
+            <button type="submit" class="btn btn-primary" data-dismiss="modal" (click) = "confirmAddUser()">Confirmer</button>
+        </div>
+    </div>
+</div>

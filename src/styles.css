@@ -1,0 +1,21 @@
+/* Croix de la PopUp de création/Update*/
+.close {
+    border: 0;
+    background-color:transparent;
+}
+
+/* Bouttons principaux*/
+.fc-button-primary {
+    color: #fff !important;
+    background-color: #0070e7 !important;
+    border-color: #005cbf !important;
+    display: inline-block !important;
+    cursor: pointer !important;
+    border: 1px solid white !important;
+}
+
+.fc-button-primary:hover {
+    color: #fff !important;
+    background-color: #0062cc !important;
+    border-color: #0062cc !important;
+}
